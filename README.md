@@ -1,7 +1,7 @@
 # Motif-Finding_Gibbs-Sampler<br />
 Gibbs sampling (also called alternating conditional sampling) is a Markov Chain Monte Carlo algorithm for high-dimensional data.<br />
 GibbsSampler is a motif finding algorithm that finds one common motif and returns a list of bestMotifs containing the closest motif match from each string in dna.<br />
-##Problem Statement<br />
+## Problem Statement<br />
 Given: Integers k, t, and N, followed by a collection of strings Dna.<br />
 Return: The strings BestMotifs resulting from running GibbsSampler(Dna, k, t, N)   with 20 random starts.<br />
 We have to code Gibbs Sampler for the purpose of motif discovery. Here,<br />
